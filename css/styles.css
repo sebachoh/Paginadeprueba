@@ -244,5 +244,16 @@ button:hover{
     border-right: none;
 }
 
+/*Formularios Barra lateral*/
 
+#aside div label,
+#aside div input[type="text"],
+#aside div input[type="email"],
+#aside div input[type="password"],
+#aside div a{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
 
+}
