@@ -141,3 +141,18 @@ body{
 #nav > ul > li:hover > ul > li:hover{
     box-shadow: 0px 0px 6px #ccc inset;
 }
+
+/*CONTENIDO*/
+
+#content{
+    width: 1250px;
+    min-height: 1100px;
+    margin: 0px auto;
+}
+
+/*BARRA LATERAL*/
+
+#aside{
+    width: 200px;
+    
+}
