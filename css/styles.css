@@ -10,6 +10,13 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: "fajala";
+    src: url("fonts/FjallaOne-Regular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 /*Estilos generales*/
@@ -227,7 +234,6 @@ button:hover{
 /*BARRA LATERAL*/
 
 #aside, #frase{
-    clear: both;
     width: 200px;
     float: left;
     margin: 30px;
@@ -239,6 +245,7 @@ button:hover{
 }
 
 #frase{
+    clear: both;
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -310,3 +317,29 @@ button:hover{
     text-align: center;
 }
 
+/*Secciones*/
+#sections{
+    float: right;
+    width: 75%;
+    font-family: sans-serif, Arial, Helvetica;
+    margin-right: 20px;
+}
+
+
+#sections .titulo{
+    font-family: fajala;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#sections section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9;
+}
