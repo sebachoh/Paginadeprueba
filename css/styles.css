@@ -17,6 +17,17 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: "icons";
+    src: url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg')
+         url("fonts/websymbols-regular-webfont.eot");
+    src: url("fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+}
+
 
 
 /*Estilos generales*/
@@ -48,6 +59,14 @@ a:hover{
 
 .blue{
     color: #0c73f2 !important;
+}
+
+.orange{
+    color: #d69d2a !important;
+}
+
+.icon{
+    font-family: "icons";
 }
 
 
@@ -245,7 +264,6 @@ button:hover{
 }
 
 #frase{
-    clear: both;
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -332,6 +350,7 @@ button:hover{
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
+    margin-top: -20px;
     padding-top: 20px;
     border-bottom: 1px solid #ccc;
 }
@@ -342,4 +361,31 @@ button:hover{
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0px 0px 4px #c9c9c9;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#sections .article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sections .date{
+    color: gray;
+    font-size: 14px;
+}
+
+#sections .stickerOne{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .stickerTwo{
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 860px;
+    z-index: 0;
 }
